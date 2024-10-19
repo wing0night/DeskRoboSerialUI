@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 13.0.1, 2024-10-19T23:43:04. -->
+<!-- Written by QtCreator 13.0.1, 2024-10-20T01:08:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -147,14 +147,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">widget.py</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.F:/Github/qtrobo_1/qtrobo/widget.py</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">F:/Github/qtrobo_1/qtrobo/widget.py</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">F:/Github/qt/qtrobo/widget.py</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.F:/Github/qt/qtrobo/widget.py</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">F:/Github/qt/qtrobo/widget.py</value>
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Script">F:\Github\qtrobo_1\qtrobo\widget.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Script">F:\Github\qt\qtrobo\widget.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">F:/Github/qtrobo_1/qtrobo</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">F:/Github/qt/qtrobo</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

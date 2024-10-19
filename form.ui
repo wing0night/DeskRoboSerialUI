@@ -16,7 +16,7 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 248, 232);</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="head_center">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -31,10 +31,10 @@ font: 12pt &quot;Modern No. 20&quot;;
 color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
-    <string>head-center</string>
+    <string>head_center</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="head_nod">
    <property name="geometry">
     <rect>
      <x>490</x>
@@ -52,7 +52,7 @@ color: rgb(0, 0, 0);</string>
     <string>head_nod</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="head_shake">
    <property name="geometry">
     <rect>
      <x>370</x>
@@ -70,7 +70,7 @@ color: rgb(0, 0, 0);</string>
     <string>head_shake</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_4">
+  <widget class="QPushButton" name="head_roll">
    <property name="geometry">
     <rect>
      <x>490</x>
@@ -127,7 +127,7 @@ color: rgb(0, 0, 0);</string>
     <string notr="true">background-color: rgb(103, 70, 54);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_5">
+  <widget class="QPushButton" name="eye_blink">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -145,7 +145,7 @@ color: rgb(0, 0, 0);</string>
     <string>eye_blink</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_6">
+  <widget class="QPushButton" name="eye_sad">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -163,7 +163,7 @@ color: rgb(0, 0, 0);</string>
     <string>eye_sad</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_7">
+  <widget class="QPushButton" name="eye_surprise">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -181,7 +181,7 @@ color: rgb(0, 0, 0);</string>
     <string>eye_surprise</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_8">
+  <widget class="QPushButton" name="eye_anger">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -199,7 +199,7 @@ color: rgb(0, 0, 0);</string>
     <string>eye_anger</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_9">
+  <widget class="QPushButton" name="eye_right">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -217,7 +217,7 @@ color: rgb(0, 0, 0);</string>
     <string>eye_right</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_10">
+  <widget class="QPushButton" name="eye_left">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -258,7 +258,7 @@ color: rgb(0, 0, 0);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/new/prefix1/robot.png);
+    <string notr="true">border-image: url("images/robot.png");
 background-color: rgba(255, 255, 255, 0);</string>
    </property>
   </widget>
@@ -332,7 +332,7 @@ color: rgb(0, 0, 0);</string>
     <string>波特率选择</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_13">
+  <widget class="QPushButton" name="open">
    <property name="geometry">
     <rect>
      <x>460</x>
@@ -350,7 +350,7 @@ color: rgb(0, 0, 0);</string>
     <string>open</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_14">
+  <widget class="QPushButton" name="close">
    <property name="geometry">
     <rect>
      <x>560</x>
@@ -368,7 +368,7 @@ color: rgb(0, 0, 0);</string>
     <string>close</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_15">
+  <widget class="QPushButton" name="github">
    <property name="geometry">
     <rect>
      <x>520</x>
@@ -387,27 +387,27 @@ color: rgb(0, 0, 0);</string>
    </property>
   </widget>
   <zorder>listView</zorder>
-  <zorder>pushButton</zorder>
-  <zorder>pushButton_2</zorder>
-  <zorder>pushButton_3</zorder>
-  <zorder>pushButton_4</zorder>
+  <zorder>head_center</zorder>
+  <zorder>head_nod</zorder>
+  <zorder>head_shake</zorder>
+  <zorder>head_roll</zorder>
   <zorder>listView_2</zorder>
   <zorder>listView_4</zorder>
-  <zorder>pushButton_5</zorder>
-  <zorder>pushButton_6</zorder>
-  <zorder>pushButton_7</zorder>
-  <zorder>pushButton_8</zorder>
-  <zorder>pushButton_9</zorder>
-  <zorder>pushButton_10</zorder>
+  <zorder>eye_blink</zorder>
+  <zorder>eye_sad</zorder>
+  <zorder>eye_surprise</zorder>
+  <zorder>eye_anger</zorder>
+  <zorder>eye_right</zorder>
+  <zorder>eye_left</zorder>
   <zorder>textEdit</zorder>
   <zorder>listView_3</zorder>
   <zorder>pushButton_11</zorder>
   <zorder>pushButton_12</zorder>
   <zorder>label</zorder>
   <zorder>label_2</zorder>
-  <zorder>pushButton_13</zorder>
-  <zorder>pushButton_14</zorder>
-  <zorder>pushButton_15</zorder>
+  <zorder>open</zorder>
+  <zorder>close</zorder>
+  <zorder>github</zorder>
  </widget>
  <resources/>
  <connections/>
