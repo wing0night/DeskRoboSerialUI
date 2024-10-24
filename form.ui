@@ -258,26 +258,8 @@ color: rgb(0, 0, 0);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url("images/robot.png");
+    <string notr="true">border-image: url(&quot;images/robot.png&quot;);
 background-color: rgba(255, 255, 255, 0);</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_11">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>480</y>
-     <width>101</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(247, 238, 211);
-font: 12pt &quot;Modern No. 20&quot;;
-color: rgb(0, 0, 0);</string>
-   </property>
-   <property name="text">
-    <string>eye_sad</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_12">
@@ -386,6 +368,21 @@ color: rgb(0, 0, 0);</string>
     <string>Github</string>
    </property>
   </widget>
+  <widget class="QComboBox" name="comChoose">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>480</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 238, 211);
+font: 12pt &quot;Modern No. 20&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+  </widget>
   <zorder>listView</zorder>
   <zorder>head_center</zorder>
   <zorder>head_nod</zorder>
@@ -401,13 +398,13 @@ color: rgb(0, 0, 0);</string>
   <zorder>eye_left</zorder>
   <zorder>textEdit</zorder>
   <zorder>listView_3</zorder>
-  <zorder>pushButton_11</zorder>
   <zorder>pushButton_12</zorder>
   <zorder>label</zorder>
   <zorder>label_2</zorder>
   <zorder>open</zorder>
   <zorder>close</zorder>
   <zorder>github</zorder>
+  <zorder>comChoose</zorder>
  </widget>
  <resources/>
  <connections/>

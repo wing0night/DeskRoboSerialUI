@@ -19,17 +19,37 @@ class Widget(QWidget):
         self.ui = Ui_Widget()
         self.ui.setupUi(self)
         self.set_signals()
-        self.open_serialPort()
+        self.initcombobox()
+    
+    def initcombobox(self):
+        self.ui.comChoose.addItem("COM1")
+        self.ui.comChoose.addItem("COM2")
+        self.ui.comChoose.addItem("COM3")
+        self.ui.comChoose.addItem("COM4")
+        self.ui.comChoose.addItem("COM5")
+        self.ui.comChoose.addItem("COM6")
+        self.ui.comChoose.addItem("COM7")
     
     def open_serialPort(self):
         # 设置串口参数
-        port = 'COM5'  # 串口名称，例如 'COM3' 或 '/dev/ttyS0'
+        # 获取 QComboBox 中选中的项
+        port = self.ui.comChoose.currentText()  # 串口名称，例如 'COM3' 或 '/dev/ttyS0'
         baudrate = 115200  # 波特率
         bytesize = serial.EIGHTBITS  # 数据位
         parity = serial.PARITY_NONE  # 奇偶校验位
         stopbits = serial.STOPBITS_ONE  # 停止位
         # 打开串口
         self.ser = serial.Serial(port, baudrate, bytesize, parity, stopbits, timeout=1)
+        print("Serial opened")
+    
+    def close_serialPort(self):
+        # 检查串口是否已经打开
+        if self.ser is not None and self.ser.is_open:
+            # 关闭串口
+            self.ser.close()
+            print("Serial closed")
+        else:
+            print("Serial is not open or is already closed")
     
     # 设置信号与槽
     def set_signals(self):
@@ -43,6 +63,8 @@ class Widget(QWidget):
         self.ui.head_nod.clicked.connect(self.head_nod)
         self.ui.head_shake.clicked.connect(self.head_shake)
         self.ui.head_roll.clicked.connect(self.head_roll)
+        self.ui.open.clicked.connect(self.open_serialPort)
+        self.ui.close.clicked.connect(self.close_serialPort)
     
     # 跳转到 GitHub 查看源代码
     def go_to_github(self):

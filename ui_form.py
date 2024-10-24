@@ -15,8 +15,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QLabel, QListView, QPushButton,
-    QSizePolicy, QTextEdit, QWidget)
+from PySide6.QtWidgets import (QApplication, QComboBox, QLabel, QListView,
+    QPushButton, QSizePolicy, QTextEdit, QWidget)
 
 class Ui_Widget(object):
     def setupUi(self, Widget):
@@ -105,12 +105,6 @@ class Ui_Widget(object):
         self.listView_3.setGeometry(QRect(50, 50, 211, 192))
         self.listView_3.setStyleSheet(u"border-image: url(\"images/robot.png\");\n"
 "background-color: rgba(255, 255, 255, 0);")
-        self.pushButton_11 = QPushButton(Widget)
-        self.pushButton_11.setObjectName(u"pushButton_11")
-        self.pushButton_11.setGeometry(QRect(110, 480, 101, 31))
-        self.pushButton_11.setStyleSheet(u"background-color: rgb(247, 238, 211);\n"
-"font: 12pt \"Modern No. 20\";\n"
-"color: rgb(0, 0, 0);")
         self.pushButton_12 = QPushButton(Widget)
         self.pushButton_12.setObjectName(u"pushButton_12")
         self.pushButton_12.setGeometry(QRect(320, 480, 101, 31))
@@ -145,6 +139,12 @@ class Ui_Widget(object):
         self.github.setStyleSheet(u"background-color: rgb(247, 238, 211);\n"
 "font: 12pt \"Modern No. 20\";\n"
 "color: rgb(0, 0, 0);")
+        self.comChoose = QComboBox(Widget)
+        self.comChoose.setObjectName(u"comChoose")
+        self.comChoose.setGeometry(QRect(110, 480, 101, 31))
+        self.comChoose.setStyleSheet(u"background-color: rgb(247, 238, 211);\n"
+"font: 12pt \"Modern No. 20\";\n"
+"color: rgb(0, 0, 0);")
         self.listView.raise_()
         self.head_center.raise_()
         self.head_nod.raise_()
@@ -160,13 +160,13 @@ class Ui_Widget(object):
         self.eye_left.raise_()
         self.textEdit.raise_()
         self.listView_3.raise_()
-        self.pushButton_11.raise_()
         self.pushButton_12.raise_()
         self.label.raise_()
         self.label_2.raise_()
         self.open.raise_()
         self.close.raise_()
         self.github.raise_()
+        self.comChoose.raise_()
 
         self.retranslateUi(Widget)
 
@@ -185,7 +185,6 @@ class Ui_Widget(object):
         self.eye_anger.setText(QCoreApplication.translate("Widget", u"eye_anger", None))
         self.eye_right.setText(QCoreApplication.translate("Widget", u"eye_right", None))
         self.eye_left.setText(QCoreApplication.translate("Widget", u"eye_left", None))
-        self.pushButton_11.setText(QCoreApplication.translate("Widget", u"eye_sad", None))
         self.pushButton_12.setText(QCoreApplication.translate("Widget", u"eye_sad", None))
         self.label.setText(QCoreApplication.translate("Widget", u"\u4e32\u53e3\u9009\u62e9", None))
         self.label_2.setText(QCoreApplication.translate("Widget", u"\u6ce2\u7279\u7387\u9009\u62e9", None))
